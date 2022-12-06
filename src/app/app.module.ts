@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IntroSectionComponent } from './intro-section/intro-section.component';
 import { AboutIntroComponent } from './about-intro/about-intro.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutIntroComponent } from './about-intro/about-intro.component';
     HeaderComponent,
     FooterComponent,
     IntroSectionComponent,
-    AboutIntroComponent
+    AboutIntroComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
