@@ -7,10 +7,11 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 import { IntroSectionComponent } from './intro-section/intro-section.component';
 import { AboutIntroComponent } from './about-intro/about-intro.component';
 import { ContactComponent } from './contact/contact.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
